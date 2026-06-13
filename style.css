@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    padding:30px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.header h1{
+    color:#1f2937;
+}
+
+.header p{
+    color:#6b7280;
+}
+
+.dashboard{
+    margin-bottom:25px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.card span{
+    font-size:32px;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.cadastro{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.campo{
+    margin-bottom:15px;
+}
+
+.campo label{
+    display:block;
+    margin-bottom:5px;
+}
+
+.campo input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.btnSalvar{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#22c55e;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.btnSalvar:hover{
+    background:#16a34a;
+}
+
+.busca{
+    margin-bottom:20px;
+}
+
+.busca input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.clientes{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#1f2937;
+    color:white;
+}
+
+th,
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:left;
+}
+
+.btnExcluir{
+    background:#dc2626;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.btnExcluir:hover{
+    background:#b91c1c;
+}
