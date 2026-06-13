@@ -1,27 +1,35 @@
-# CRM de Clientes com CrudCrud
+# CRM de Clientes
 
-Sistema web para gerenciamento de clientes desenvolvido com HTML, CSS e JavaScript, utilizando a API CrudCrud para armazenar os dados.
+Sistema web para gerenciamento de clientes desenvolvido com HTML, CSS e JavaScript, utilizando a API CrudCrud para persistência de dados.
+
+## Demonstração
+
+Acesse a aplicação online:
+
+🌐 **Deploy:** https://vh7070707-cyber.github.io/aplica-o-com-CrudCrud/
 
 ## Funcionalidades
 
 * Cadastro de clientes
 * Listagem de clientes
-* Busca por nome, e-mail ou telefone
+* Pesquisa por nome, e-mail ou telefone
 * Exclusão de clientes
-* Contador de clientes cadastrados
+* Atualização automática da lista
+* Contador total de clientes
 * Interface responsiva
 
 ## Tecnologias Utilizadas
 
 * HTML5
 * CSS3
-* JavaScript
+* JavaScript (ES6+)
 * CrudCrud API
+* Git e GitHub
 
 ## Estrutura do Projeto
 
 ```text
-projeto-clientes/
+aplica-o-com-CrudCrud/
 │
 ├── index.html
 ├── style.css
@@ -29,12 +37,12 @@ projeto-clientes/
 └── README.md
 ```
 
-## Como Executar
+## Como Executar Localmente
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/aplica-o-com-CrudCrud.git
+git clone https://github.com/vh7070707-cyber/aplica-o-com-CrudCrud.git
 ```
 
 2. Entre na pasta do projeto:
@@ -43,33 +51,42 @@ git clone https://github.com/SEU-USUARIO/aplica-o-com-CrudCrud.git
 cd aplica-o-com-CrudCrud
 ```
 
-3. Abra o arquivo `index.html` no navegador.
+3. Abra o arquivo `index.html` em seu navegador ou utilize a extensão Live Server do VS Code.
 
 ## Configuração da API
 
-No arquivo `script.js`, substitua a URL abaixo pela sua chave do CrudCrud:
+No arquivo `script.js`, substitua a URL da API pela sua chave do CrudCrud:
 
 ```javascript
 const API_URL =
 "https://crudcrud.com/api/SUA_CHAVE_AQUI/clientes";
 ```
 
-Exemplo:
+## Objetivo do Projeto
 
-```javascript
-const API_URL =
-"https://crudcrud.com/api/123456789abcdef/clientes";
-```
+Este projeto foi desenvolvido para praticar conceitos fundamentais de desenvolvimento web:
 
-## Funcionalidades Futuras
+* Manipulação do DOM
+* Requisições HTTP com Fetch API
+* Integração com APIs REST
+* Organização de código em HTML, CSS e JavaScript
+* Controle de versão com Git e GitHub
+
+## Melhorias Futuras
 
 * Edição de clientes
-* Dashboard com gráficos
+* Dashboard com estatísticas
 * Exportação para CSV
 * Sistema de login
-* Tema escuro
 * Paginação
+* Tema escuro
 
 ## Autor
 
-Desenvolvido por Vinicius Henrique para estudos e prática de desenvolvimento web.
+**Vinicius Henrique**
+
+GitHub: https://github.com/vh7070707-cyber
+
+---
+
+⭐ Se gostou do projeto, deixe uma estrela no repositório.
